@@ -11,6 +11,7 @@ struct chip {
         u16 memory[MEMORY_CAP];
         u16 registers[REGISTER_NUMBER];
         struct stack* stack;
+	u16 pc;
 
 };
             
