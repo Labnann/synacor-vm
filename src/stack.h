@@ -17,6 +17,7 @@ struct stack {
 struct stack* stack_create();
 void stack_push (struct stack* st, u16 val);
 u16 stack_pop (struct stack* st);
+struct list_head* stack_top_get (struct stack* st);
 
 
 #endif

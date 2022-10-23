@@ -62,3 +62,9 @@ u16 stack_pop (struct stack* st)
 
 	return val;
 }
+
+
+struct list_head* stack_top_get (struct stack* st) 
+{
+	return st->top;
+}
